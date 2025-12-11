@@ -1,0 +1,5 @@
+{
+  "name": "CryptoOracle AI",
+  "description": "Intelligent crypto market analysis using Gemini AI. Features candlestick charts, timezone analysis, predictive analytics, and smart trading notifications.",
+  "requestFramePermissions": []
+}
