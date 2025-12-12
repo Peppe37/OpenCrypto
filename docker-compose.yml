@@ -1,0 +1,7 @@
+services:
+  opencrypto:
+    build: .
+    container_name: opencrypto
+    restart: always
+    ports:
+      - "127.0.0.1:8080:80"
