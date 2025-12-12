@@ -2,5 +2,18 @@ services:
   opencrypto:
     build: .
     restart: always
-    ports:
-      - "127.0.0.1:8080:80"
+
+    # -----------------------------------------------------------
+    # RIMUOVI O COMMENTA QUESTE RIGHE:
+    # ports:
+    #   - "127.0.0.1:8081:80"
+    # -----------------------------------------------------------
+
+    networks:
+      - default
+      - npm_network
+
+networks:
+  npm_network:
+    external:
+      name: npm-prod_default
