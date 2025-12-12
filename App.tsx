@@ -752,7 +752,7 @@ const App: React.FC = () => {
         <div className="p-6 border-b border-gray-800 flex justify-between items-center">
           <div>
             <h1 className="text-xl font-bold font-mono tracking-tighter text-crypto-accent">
-                CRYPTO<span className="text-white">ORACLE</span>
+                OPEN<span className="text-white">CRYPTO</span>
             </h1>
             <p className="text-xs text-gray-500 mt-1">AI-Powered Market Intelligence</p>
           </div>

@@ -41,7 +41,7 @@ export const ChatWidget: React.FC<ChatWidgetProps> = ({ selectedCoin, analysis, 
                 setMessages([{
                     id: 'init',
                     role: 'model',
-                    text: "Hi! I'm CryptoOracle. I can see the market data you're looking at. Ask me anything about the current trend.",
+                    text: "Hi! I'm OpenCrypto. I can see the market data you're looking at. Ask me anything about the current trend.",
                     timestamp: Date.now()
                 }]);
             } catch (e) {

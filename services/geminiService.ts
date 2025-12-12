@@ -4,7 +4,7 @@ import { AnalysisResult, CandleData, AIConfig, ChatMessage } from "../types";
 
 // --- Prompts ---
 const SYSTEM_INSTRUCTION = `You are a professional crypto market analyst. Return ONLY raw JSON. No markdown formatting.`;
-const CHAT_SYSTEM_INSTRUCTION = `You are CryptoOracle, an expert AI trading assistant. 
+const CHAT_SYSTEM_INSTRUCTION = `You are OpenCrypto, an expert AI trading assistant.
 You are helpful, concise, and professional. 
 You have access to the user's current screen context (selected coin, price, technical analysis) which is provided in hidden context blocks.
 Always answer based on the provided context if available.
