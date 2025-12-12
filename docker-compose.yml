@@ -15,5 +15,5 @@ services:
 
 networks:
   npm_network:
-    external:
-      name: npm-prod_default
+    name: npm-prod_default
+    external: true
